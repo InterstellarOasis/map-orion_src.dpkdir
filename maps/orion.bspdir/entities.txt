@@ -3,7 +3,7 @@
 }
 {
 "classname" "info_player_intermission"
-"origin" "-752 -1536 -16"
+"origin" "-752 -1664 -16"
 "angle" "45"
 }
 {
@@ -75,7 +75,7 @@
 }
 {
 "classname" "target_location"
-"origin" "-608 -1216 112"
+"origin" "-608 -1344 112"
 "message" "Data Core"
 "count" "4"
 }
@@ -150,7 +150,7 @@
 }
 {
 "classname" "target_location"
-"origin" "320 -1344 112"
+"origin" "320 -1024 112"
 "message" "Lobby"
 "count" "4"
 }
@@ -179,7 +179,7 @@
 }
 {
 "classname" "target_speaker"
-"origin" "-560 -1376 144"
+"origin" "-560 -1504 144"
 "spawnflags" "1"
 "noise" "sound/ambient/quickpulse.wav"
 }
@@ -236,4 +236,70 @@
 "origin" "-64 896 64"
 "count" "4"
 "message" "Satellite"
+}
+{
+"classname" "misc_anim_model"
+"origin" "1088 -2176 16"
+"model" "models/mapobjects/orion/builder.md3"
+"animation" "41    40    40    60"
+"angle" "-90"
+"radius" "3"
+}
+{
+"classname" "misc_anim_model"
+"origin" "1088 -2400 -13"
+"animation" "90	40	0	20"
+"model" "models/mapobjects/orion/upper.md3"
+"angle" "-75"
+}
+{
+"classname" "misc_anim_model"
+"origin" "1088 -2402 -24"
+"animation" "110 8 8 15"
+"model" "models/mapobjects/orion/lower.md3"
+"angle" "-90"
+}
+{
+"classname" "misc_anim_model"
+"origin" "1087 -2397 3"
+"model" "models/mapobjects/orion/head.md3"
+"angle" "-90"
+}
+{
+"classname" "target_location"
+"origin" "896 -2304 16"
+"message" "???"
+"count" "2"
+}
+{
+"classname" "target_push"
+"origin" "600 -1824 8"
+"targetname" "push"
+"speed" "2000"
+"spawnflags" "1"
+"angle" "90"
+}
+{
+"classname" "trigger_multiple"
+"target" "push"
+"angle" "0"
+"model" "*3"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "99999"
+"spawnflags" "12"
+"model" "*4"
+}
+{
+"classname" "target_location"
+"origin" "320 -1600 112"
+"message" "Lobby"
+"count" "4"
+}
+{
+"classname" "trigger_hurt"
+"spawnflags" "12"
+"dmg" "999999"
+"model" "*5"
 }

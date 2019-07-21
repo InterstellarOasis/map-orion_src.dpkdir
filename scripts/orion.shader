@@ -393,3 +393,34 @@ textures/orion/vine06
 		alphaFunc GE128		
 	}	
 }
+
+//------------------------------------------------------------------------------
+//-                                                                            -
+//- Easter egg                                                                 -
+//-                                                                            -
+//------------------------------------------------------------------------------
+textures/orion/scrolling
+{
+  qer_editorimage textures/orion/scrolling.tga
+
+  cull twosided
+  surfaceparm nolightmap
+
+  {
+    map textures/orion/scrolling.tga
+    tcMod scroll 0 1
+  }
+}
+
+textures/orion/secret1
+{
+  qer_editorimage textures/orion/secret1.tga
+
+  cull twosided
+  surfaceparm nolightmap
+
+  {
+    map textures/orion/secret1.tga
+    blendfunc GL_ONE GL_ONE
+  }
+}

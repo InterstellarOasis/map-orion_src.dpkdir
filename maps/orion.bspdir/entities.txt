@@ -42,7 +42,7 @@
 }
 {
 "classname" "team_human_medistat"
-"origin" "-352 -208 24"
+"origin" "-336 -192 24"
 }
 {
 "classname" "team_human_mgturret"
@@ -67,7 +67,7 @@
 }
 {
 "classname" "team_human_spawn"
-"origin" "-448 -192 32"
+"origin" "-272 -208 32"
 }
 {
 "classname" "target_location"

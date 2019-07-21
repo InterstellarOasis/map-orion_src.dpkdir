@@ -157,7 +157,7 @@ textures/orion/light_orange
 	qer_editorimage textures/orion/light_orange.tga
 	surfaceparm nomarks
 	q3map_surfacelight 10000
-	q3map_lightRGB 1 1 .25
+	q3map_lightRGB 1 .75 .25
 	{
 		map textures/orion/light_orange.tga
 	}

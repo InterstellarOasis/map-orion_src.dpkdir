@@ -8,20 +8,8 @@
 }
 {
 "classname" "target_location"
-"origin" "-64 896 64"
-"count" "4"
-"message" "Satellite"
-}
-{
-"classname" "target_location"
 "origin" "1344 -1088 160"
 "message" "Lobby"
-}
-{
-"classname" "target_location"
-"origin" "2144 1120 -16"
-"message" "Generator"
-"count" "1"
 }
 {
 "classname" "target_location"
@@ -70,25 +58,19 @@
 "origin" "-272 -208 32"
 }
 {
-"classname" "target_location"
-"origin" "-896 512 128"
-"message" "Satellite Access"
-"count" "4"
-}
-{
 "classname" "team_human_mgturret"
 "origin" "-592 -320 16"
 }
 {
 "classname" "target_location"
-"origin" "-1408 -896 64"
+"origin" "-1440 -896 64"
 "message" "Data Core Access"
 "count" "4"
 }
 {
 "classname" "target_location"
 "origin" "-448 -448 160"
-"message" "Human Base - Control Room"
+"message" "Control Room"
 "count" "4"
 }
 {
@@ -126,7 +108,7 @@
 "classname" "target_location"
 "origin" "2272 -592 -96"
 "count" "1"
-"message" "Alien Base - Ventilation"
+"message" "Ventilation"
 }
 {
 "classname" "target_location"
@@ -203,6 +185,23 @@
 }
 {
 "classname" "target_speaker"
+"origin" "2112 -480 160"
+"spawnflags" "1"
+"noise" "sound/ambient/fan.wav"
+}
+{
+"classname" "team_alien_overmind"
+"origin" "2448 -344 24"
+"angle" "90"
+}
+{
+"classname" "target_location"
+"origin" "2144 1120 -16"
+"message" "Generator"
+"count" "1"
+}
+{
+"classname" "target_speaker"
 "origin" "2144 1216 -128"
 "spawnflags" "1"
 "noise" "sound/ambient/drone2.wav"
@@ -214,19 +213,27 @@
 "noise" "sound/ambient/drone2.wav"
 }
 {
+"classname" "target_location"
+"origin" "1920 1872 144"
+"count" "1"
+"message" "Freight Lift"
+"angle" "180"
+}
+{
+"classname" "target_location"
+"origin" "-896 512 128"
+"message" "Satellite Access"
+"count" "4"
+}
+{
 "classname" "target_speaker"
 "origin" "-64 960 80"
 "spawnflags" "1"
 "noise" "sound/ambient/slowpulse2.wav"
 }
 {
-"classname" "target_speaker"
-"origin" "2112 -480 160"
-"spawnflags" "1"
-"noise" "sound/ambient/fan.wav"
-}
-{
-"classname" "team_alien_overmind"
-"origin" "2448 -344 24"
-"angle" "90"
+"classname" "target_location"
+"origin" "-64 896 64"
+"count" "4"
+"message" "Satellite"
 }

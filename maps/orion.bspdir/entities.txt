@@ -14,9 +14,8 @@
 }
 {
 "classname" "target_location"
-"origin" "320 -1344 112"
+"origin" "1344 -1088 160"
 "message" "Lobby"
-"count" "4"
 }
 {
 "classname" "target_location"
@@ -26,7 +25,7 @@
 }
 {
 "classname" "target_location"
-"origin" "1024 -512 48"
+"origin" "880 -976 48"
 "message" "Main Hallway"
 "count" "0"
 }
@@ -40,10 +39,6 @@
 "classname" "team_human_armoury"
 "origin" "-360 -128 12"
 "angle" "180"
-}
-{
-"classname" "team_human_reactor"
-"origin" "-560 -176 16"
 }
 {
 "classname" "team_human_medistat"
@@ -110,7 +105,7 @@
 }
 {
 "classname" "target_location"
-"origin" "2112 -1312 0"
+"origin" "1792 -1344 0"
 "message" "Ventilation Access"
 "count" "1"
 }
@@ -171,4 +166,67 @@
 {
 "classname" "team_alien_acid_tube"
 "origin" "2352 -304 -144"
+}
+{
+"classname" "team_human_reactor"
+"origin" "-560 -176 16"
+}
+{
+"classname" "target_location"
+"origin" "320 -1344 112"
+"message" "Lobby"
+"count" "4"
+}
+{
+"classname" "target_location"
+"origin" "1024 -448 48"
+"message" "Main Hallway"
+"count" "0"
+}
+{
+"classname" "target_location"
+"origin" "1344 -1344 160"
+"message" "Lobby"
+}
+{
+"classname" "target_location"
+"origin" "2304 -1184 0"
+"message" "Ventilation Access"
+"count" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "2112 -800 160"
+"spawnflags" "1"
+"noise" "sound/ambient/fan.wav"
+}
+{
+"classname" "target_speaker"
+"origin" "-560 -1376 144"
+"spawnflags" "1"
+"noise" "sound/ambient/quickpulse.wav"
+}
+{
+"classname" "target_speaker"
+"origin" "2144 1216 -128"
+"spawnflags" "1"
+"noise" "sound/ambient/drone2.wav"
+}
+{
+"classname" "target_speaker"
+"origin" "2144 1024 -128"
+"spawnflags" "1"
+"noise" "sound/ambient/drone2.wav"
+}
+{
+"classname" "target_speaker"
+"origin" "-64 960 80"
+"spawnflags" "1"
+"noise" "sound/ambient/slowpulse2.wav"
+}
+{
+"classname" "target_speaker"
+"origin" "2112 -480 160"
+"spawnflags" "1"
+"noise" "sound/ambient/fan.wav"
 }

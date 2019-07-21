@@ -364,3 +364,25 @@ textures/orion/minimap
     blendfunc GL_DST_COLOR GL_ZERO
   }
 }
+
+// ======================================================================
+// Vine (By DASPRiD)
+// ======================================================================
+textures/orion/vine06
+{
+	qer_editorimage textures/orion/vine06.tga
+	q3map_backShader textures/orion/vine06_back
+	q3map_vertexScale 2
+	qer_alphafunc greater 0.5
+	surfaceparm alphashadow
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	qer_trans 0.99
+	{
+		map textures/orion/vine06.tga
+		rgbGen vertex
+		depthWrite
+		alphaFunc GE128		
+	}	
+}

@@ -70,8 +70,8 @@
 }
 {
 "classname" "target_location"
-"origin" "-448 -448 160"
-"message" "Control Room"
+"origin" "-1408 -448 160"
+"message" "Control Center"
 "count" "4"
 }
 {
@@ -307,4 +307,10 @@
 {
 "classname" "team_human_mgturret"
 "origin" "-576 -224 16"
+}
+{
+"classname" "target_location"
+"origin" "-448 -448 160"
+"message" "Control Center"
+"count" "4"
 }

@@ -49,30 +49,6 @@ textures/orion/data
   }
 }
 
-textures/orion/e8xgirder_s
-{
-	surfaceparm alphashadow
-	surfaceparm metalsteps
-	surfaceparm nomarks
-	surfaceparm playerclip
-   	surfaceparm nonsolid
-	surfaceparm trans
-	cull disable
-	nopicmip
-	qer_editorimage textures/niveus/e8xgirder.tga
-	{
-		map textures/niveus/e8xgirder.tga
-		depthWrite
-		alphaFunc GE128
-	}
-	{
-		map $lightmap 
-		blendfunc filter
-		tcGen lightmap 
-		depthFunc equal
-	}
-}
-
 textures/orion/trimlight_blue
 {
 	qer_editorimage textures/orion/trimlight_blue.tga
@@ -372,6 +348,8 @@ textures/orion/minimap
   }
 }
 
+
+
 // ======================================================================
 // Vine (By DASPRiD)
 // ======================================================================
@@ -394,6 +372,20 @@ textures/orion/vine06
 	}	
 }
 
+textures/orion/vine06_back
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	{
+		map textures/orion/vine06.tga
+		rgbGen const ( 0.2 0.2 0.2 )
+		alphaFunc GE128		
+	}	
+}
+
+
+
 //------------------------------------------------------------------------------
 //-                                                                            -
 //- Easter egg                                                                 -
@@ -401,12 +393,12 @@ textures/orion/vine06
 //------------------------------------------------------------------------------
 textures/orion/trembru_s_nonsolid
 {
-	qer_editorimage textures/niveus/trembru.tga
+	qer_editorimage textures/orion/trembru.tga
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	q3map_surfacelight 1500
 	{
-		map textures/niveus/trembru.tga
+		map textures/orion/trembru.tga
 	}
 	{
 		map $lightmap 
@@ -414,7 +406,7 @@ textures/orion/trembru_s_nonsolid
 		tcGen lightmap 
 	}
 	{
-		map textures/niveus/trembru.tga
+		map textures/orion/trembru.tga
 		blendfunc add
 	}
 }
@@ -443,4 +435,214 @@ textures/orion/secret1
     map textures/orion/secret1.tga
     blendfunc GL_ONE GL_ONE
   }
+}
+
+
+
+//------------------------------------------------------------------------------
+//-                                                                            -
+//- Copied from other maps                                                     -
+//-                                                                            -
+//------------------------------------------------------------------------------
+textures/orion/e6bsegrtflr256_s
+{
+	qer_editorimage textures/orion/e6bsegrtflr256.tga
+	surfaceparm alphashadow
+	surfaceparm trans
+	surfaceparm nomarks
+	surfaceparm metalsteps
+	cull none
+	nopicmip
+	{
+		map textures/orion/e6bsegrtflr256.tga
+		alphafunc GE128
+		depthwrite
+	}
+	{
+		map $lightmap
+		depthfunc equal
+		blendfunc filter
+	}
+}
+
+textures/orion/e8xgirder_s
+{
+	surfaceparm alphashadow
+	surfaceparm metalsteps
+	surfaceparm nomarks
+	surfaceparm playerclip
+   	surfaceparm nonsolid
+	surfaceparm trans
+	cull disable
+	nopicmip
+	qer_editorimage textures/orion/e8xgirder.tga
+	{
+		map textures/orion/e8xgirder.tga
+		depthWrite
+		alphaFunc GE128
+	}
+	{
+		map $lightmap 
+		blendfunc filter
+		tcGen lightmap 
+		depthFunc equal
+	}
+}
+
+textures/orion/glass_02_s
+{
+	qer_editorimage textures/orion/scratchglass.jpg
+	surfaceparm nomarks
+	surfaceparm trans
+	{
+		map textures/orion/scratchglass.jpg
+		blendfunc add
+		rgbGen const ( 0.1 0.1 0.1 )
+	}
+	{
+		map $lightmap 
+		blendfunc gl_dst_color gl_src_alpha
+		rgbGen identity
+		tcGen lightmap 
+	}
+}
+
+textures/orion/proto_fence
+{
+	qer_editorimage textures/orion/objects_fence.tga
+	surfaceparm noimpact
+	surfaceparm playerclip
+	surfaceparm trans		
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	cull none
+        nopicmip
+	{
+		map textures/orion/objects_fence.tga
+		tcMod scale 3 3
+		blendFunc GL_ONE GL_ZERO
+		alphaFunc GE128
+		depthWrite
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+	}
+}
+
+textures/orion/trembru_s
+{
+	qer_editorimage textures/orion/trembru.jpg
+	surfaceparm nomarks
+	q3map_surfacelight 1500
+	{
+		map textures/orion/trembru.jpg
+	}
+	{
+		map $lightmap 
+		blendfunc filter
+		tcGen lightmap 
+	}
+	{
+		map textures/orion/trembru.jpg
+		blendfunc add
+	}
+}
+
+
+
+//------------------------------------------------------------------------------
+//-                                                                            -
+//- Common                                                                     -
+//-                                                                            -
+//------------------------------------------------------------------------------
+textures/orion/clip
+{
+	qer_trans 0.40
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nonsolid
+	surfaceparm trans
+	surfaceparm nomarks
+	surfaceparm noimpact
+	surfaceparm playerclip
+}
+
+textures/orion/full_clip
+{
+	qer_trans 0.40
+	surfaceparm nodraw
+	surfaceparm playerclip
+}
+
+textures/orion/ladder
+{
+	qer_editorimage textures/orion/ladder.tga
+	qer_trans .40
+	surfaceparm ladder
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nonsolid
+	surfaceparm trans
+	surfaceparm nomarks
+	surfaceparm noimpact
+	surfaceparm playerclip
+}
+
+textures/orion/nodraw
+{
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nonsolid
+	surfaceparm trans
+	surfaceparm nomarks
+}
+
+textures/orion/origin
+{
+	qer_nocarve
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nonsolid
+	surfaceparm trans
+	surfaceparm origin
+}
+
+textures/orion/trigger
+{
+	qer_trans 0.50
+	qer_nocarve
+	surfaceparm nodraw
+}
+
+textures/orion/weapclip
+{
+	qer_trans 0.40
+	surfaceparm nodraw
+    	surfaceparm nolightmap
+	surfaceparm trans
+	surfaceparm nomarks
+}
+
+
+
+
+
+//------------------------------------------------------------------------------
+//-                                                                            -
+//- Common-Trem                                                                -
+//-                                                                            -
+//------------------------------------------------------------------------------
+textures/orion/nobuild
+{
+	qer_trans 0.5
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nonsolid
+	surfaceparm trans
+	surfaceparm nomarks
+	surfaceparm nobuild
 }

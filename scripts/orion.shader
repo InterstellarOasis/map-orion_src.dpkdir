@@ -399,6 +399,26 @@ textures/orion/vine06
 //- Easter egg                                                                 -
 //-                                                                            -
 //------------------------------------------------------------------------------
+textures/orion/trembru_s_nonsolid
+{
+	qer_editorimage textures/niveus/trembru.tga
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	q3map_surfacelight 1500
+	{
+		map textures/niveus/trembru.tga
+	}
+	{
+		map $lightmap 
+		blendfunc filter
+		tcGen lightmap 
+	}
+	{
+		map textures/niveus/trembru.tga
+		blendfunc add
+	}
+}
+
 textures/orion/scrolling
 {
   qer_editorimage textures/orion/scrolling.tga

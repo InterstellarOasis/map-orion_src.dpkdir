@@ -38,7 +38,8 @@
 }
 {
 "classname" "team_human_mgturret"
-"origin" "-416 -320 16"
+"origin" "-400 -384 16"
+"angle" "0"
 }
 {
 "classname" "team_human_mgturret"
@@ -46,7 +47,7 @@
 }
 {
 "classname" "info_human_intermission"
-"origin" "-480 -496 112"
+"origin" "-480 -672 144"
 "angle" "90"
 }
 {
@@ -59,11 +60,11 @@
 }
 {
 "classname" "team_human_mgturret"
-"origin" "-592 -320 16"
+"origin" "-704 -128 16"
 }
 {
 "classname" "target_location"
-"origin" "-1440 -896 64"
+"origin" "-1408 -1408 64"
 "message" "Data Core Access"
 "count" "4"
 }
@@ -146,7 +147,7 @@
 }
 {
 "classname" "team_human_reactor"
-"origin" "-560 -176 16"
+"origin" "-592 -128 16"
 }
 {
 "classname" "target_location"
@@ -239,7 +240,7 @@
 }
 {
 "classname" "misc_anim_model"
-"origin" "1088 -2176 16"
+"origin" "1040 -2192 32"
 "model" "models/mapobjects/orion/builder.md3"
 "animation" "41    40    40    60"
 "angle" "-90"
@@ -247,33 +248,33 @@
 }
 {
 "classname" "misc_anim_model"
-"origin" "1088 -2400 -13"
+"origin" "1040 -2416 3"
 "animation" "90	40	0	20"
 "model" "models/mapobjects/orion/upper.md3"
 "angle" "-75"
 }
 {
 "classname" "misc_anim_model"
-"origin" "1088 -2402 -24"
+"origin" "1040 -2418 -8"
 "animation" "110 8 8 15"
 "model" "models/mapobjects/orion/lower.md3"
 "angle" "-90"
 }
 {
 "classname" "misc_anim_model"
-"origin" "1087 -2397 3"
+"origin" "1039 -2413 19"
 "model" "models/mapobjects/orion/head.md3"
 "angle" "-90"
 }
 {
 "classname" "target_location"
-"origin" "896 -2304 16"
+"origin" "848 -2320 32"
 "message" "???"
 "count" "2"
 }
 {
 "classname" "target_push"
-"origin" "600 -1824 8"
+"origin" "552 -1832 8"
 "targetname" "push"
 "speed" "2000"
 "spawnflags" "1"
@@ -302,4 +303,8 @@
 "spawnflags" "12"
 "dmg" "999999"
 "model" "*5"
+}
+{
+"classname" "team_human_mgturret"
+"origin" "-576 -224 16"
 }

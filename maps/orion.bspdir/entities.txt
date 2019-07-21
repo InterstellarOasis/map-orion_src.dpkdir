@@ -1,0 +1,174 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_intermission"
+"origin" "-752 -1536 -16"
+"angle" "45"
+}
+{
+"classname" "target_location"
+"origin" "-64 896 64"
+"count" "4"
+"message" "Satellite"
+}
+{
+"classname" "target_location"
+"origin" "320 -1344 112"
+"message" "Lobby"
+"count" "4"
+}
+{
+"classname" "target_location"
+"origin" "2144 1120 -16"
+"message" "Generator"
+"count" "1"
+}
+{
+"classname" "target_location"
+"origin" "1024 -512 48"
+"message" "Main Hallway"
+"count" "0"
+}
+{
+"classname" "target_location"
+"origin" "1024 512 48"
+"message" "Main Hallway"
+"count" "0"
+}
+{
+"classname" "team_human_armoury"
+"origin" "-360 -128 12"
+"angle" "180"
+}
+{
+"classname" "team_human_reactor"
+"origin" "-560 -176 16"
+}
+{
+"classname" "team_human_medistat"
+"origin" "-352 -208 24"
+}
+{
+"classname" "team_human_mgturret"
+"origin" "-384 -176 176"
+}
+{
+"classname" "team_human_mgturret"
+"origin" "-416 -320 16"
+}
+{
+"classname" "team_human_mgturret"
+"origin" "-256 -176 176"
+}
+{
+"classname" "info_human_intermission"
+"origin" "-480 -496 112"
+"angle" "90"
+}
+{
+"classname" "team_human_spawn"
+"origin" "-272 -136 32"
+}
+{
+"classname" "team_human_spawn"
+"origin" "-448 -192 32"
+}
+{
+"classname" "target_location"
+"origin" "-896 512 128"
+"message" "Satellite Access"
+"count" "4"
+}
+{
+"classname" "team_human_mgturret"
+"origin" "-592 -320 16"
+}
+{
+"classname" "target_location"
+"origin" "-1408 -896 64"
+"message" "Data Core Access"
+"count" "4"
+}
+{
+"classname" "target_location"
+"origin" "-448 -448 160"
+"message" "Human Base - Control Room"
+"count" "4"
+}
+{
+"classname" "target_location"
+"origin" "-608 -1216 112"
+"message" "Data Core"
+"count" "4"
+}
+{
+"classname" "target_location"
+"origin" "1536 -832 16"
+"message" "Ventilation Access"
+"count" "1"
+}
+{
+"classname" "target_location"
+"origin" "2112 -1312 0"
+"message" "Ventilation Access"
+"count" "1"
+}
+{
+"classname" "info_alien_intermission"
+"origin" "2080 -288 16"
+"angle" "-45"
+}
+{
+"classname" "team_alien_overmind"
+"origin" "2448 -344 24"
+"angle" "90"
+}
+{
+"classname" "team_alien_spawn"
+"origin" "2432 -928 -144"
+}
+{
+"classname" "team_alien_spawn"
+"origin" "2416 -816 -144"
+}
+{
+"classname" "target_location"
+"origin" "2272 -592 -96"
+"count" "1"
+"message" "Alien Base - Ventilation"
+}
+{
+"classname" "target_location"
+"origin" "2736 288 -128"
+"count" "1"
+"message" "Pipes"
+}
+{
+"classname" "func_rotating"
+"speed" "100"
+"origin" "2112 -800 248"
+"model" "*1"
+}
+{
+"classname" "func_rotating"
+"speed" "100"
+"origin" "2112 -480 248"
+"model" "*2"
+}
+{
+"classname" "team_alien_acid_tube"
+"origin" "2528 -1000 32"
+}
+{
+"classname" "team_alien_acid_tube"
+"origin" "2528 -304 -144"
+}
+{
+"classname" "team_alien_acid_tube"
+"origin" "2360 -984 32"
+}
+{
+"classname" "team_alien_acid_tube"
+"origin" "2352 -304 -144"
+}

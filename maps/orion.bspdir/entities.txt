@@ -42,7 +42,7 @@
 }
 {
 "classname" "team_human_medistat"
-"origin" "-336 -192 24"
+"origin" "-480 -128 16"
 }
 {
 "classname" "team_human_mgturret"
@@ -113,11 +113,6 @@
 "classname" "info_alien_intermission"
 "origin" "2080 -288 16"
 "angle" "-45"
-}
-{
-"classname" "team_alien_overmind"
-"origin" "2448 -344 24"
-"angle" "90"
 }
 {
 "classname" "team_alien_spawn"
@@ -229,4 +224,9 @@
 "origin" "2112 -480 160"
 "spawnflags" "1"
 "noise" "sound/ambient/fan.wav"
+}
+{
+"classname" "team_alien_overmind"
+"origin" "2448 -344 24"
+"angle" "90"
 }

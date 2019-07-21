@@ -249,9 +249,6 @@ textures/orion/msg_status
     blendfunc GL_ONE GL_ONE
     tcMod scroll 0 .05
   }
-  {
-    blendfunc GL_DST_COLOR GL_ZERO
-  }
 }
 
 textures/orion/msg_warning1
@@ -266,8 +263,33 @@ textures/orion/msg_warning1
     blendfunc GL_ONE GL_ONE
     tcMod scroll 0 .05
   }
+}
+
+textures/orion/msg_shields
+{
+  qer_editorimage textures/orion/msg_shields.tga
+
+  cull twosided
+  surfaceparm nolightmap
+
   {
-    blendfunc GL_DST_COLOR GL_ZERO
+    map textures/orion/msg_shields.tga
+    blendfunc GL_ONE GL_ONE
+    tcMod scroll 0 .05
+  }
+}
+
+textures/orion/msg_warning2
+{
+  qer_editorimage textures/orion/msg_warning2.tga
+
+  cull twosided
+  surfaceparm nolightmap
+
+  {
+    map textures/orion/msg_warning2.tga
+    blendfunc GL_ONE GL_ONE
+    tcMod scroll 0 .05
   }
 }
 
@@ -283,9 +305,6 @@ textures/orion/msg_welcome
     blendfunc GL_ONE GL_ONE
     tcMod scroll 0 .05
   }
-  {
-    blendfunc GL_DST_COLOR GL_ZERO
-  }
 }
 
 textures/orion/msg_orionii
@@ -300,9 +319,6 @@ textures/orion/msg_orionii
     blendfunc GL_ONE GL_ONE
     tcMod scroll 0 .05
   }
-  {
-    blendfunc GL_DST_COLOR GL_ZERO
-  }
 }
 
 textures/orion/msg_sysreport
@@ -316,9 +332,6 @@ textures/orion/msg_sysreport
     map textures/orion/msg_sysreport.tga
     blendfunc GL_ONE GL_ONE
     tcMod scroll 0 .05
-  }
-  {
-    blendfunc GL_DST_COLOR GL_ZERO
   }
 }
 
@@ -339,9 +352,6 @@ textures/orion/sat
     blendfunc GL_ONE GL_ONE
     tcMod scroll 0 .05
   }
-  {
-    blendfunc GL_DST_COLOR GL_ZERO
-  }
 }
 
 //------------------------------------------------------------------------------
@@ -359,9 +369,6 @@ textures/orion/minimap
   {
     map textures/orion/minimap.tga
     blendfunc GL_ONE GL_ONE
-  }
-  {
-    blendfunc GL_DST_COLOR GL_ZERO
   }
 }
 

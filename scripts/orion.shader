@@ -5,7 +5,7 @@
 //------------------------------------------------------------------------------
 textures/orion/locations
 {
-  qer_editorimage textures/orion/locations.tga
+  qer_editorimage textures/orion/locations
 
   cull none
   surfaceparm trans
@@ -13,12 +13,12 @@ textures/orion/locations
   surfaceparm nonsolid
 
   {
-    map textures/orion/locations.tga
+    map textures/orion/locations
     alphafunc GE128
     depthwrite
   }
   {
-    map textures/orion/locations.tga
+    map textures/orion/locations
     rgbgen wave sin .2 .2 .2 .2
     tcMod stretch square 1 0.001 0 1.2
     tcMod turb 0 .001 .2 1.1
@@ -28,7 +28,7 @@ textures/orion/locations
 
 textures/orion/data
 {
-  qer_editorimage textures/orion/data.tga
+  qer_editorimage textures/orion/data
 
   cull twosided
   surfaceparm nolightmap
@@ -36,10 +36,10 @@ textures/orion/data
 //  q3map_surfacelight 75
 
   {
-    map textures/orion/data.tga
+    map textures/orion/data
   }
   {
-    map textures/orion/fade.tga
+    map textures/orion/fade
     blendfunc GL_ONE GL_ONE
     tcMod scroll 0 1
   }
@@ -51,54 +51,54 @@ textures/orion/data
 
 textures/orion/trimlight_blue
 {
-	qer_editorimage textures/orion/trimlight_blue.tga
-	q3map_lightimage textures/orion/trimlight_blue.blend.tga
+	qer_editorimage textures/orion/trimlight_blue
+	q3map_lightimage textures/orion/trimlight_blue.blend
 	q3map_surfacelight 10000
 
 	{
 		map $lightmap
 	}
 	{
-		map textures/orion/trimlight_blue.tga
+		map textures/orion/trimlight_blue
 		blendfunc filter
 		tcGen lightmap
 	}
 	{
-		map textures/orion/trimlight_blue.blend.tga
+		map textures/orion/trimlight_blue.blend
 		blendfunc add
 	}
 }
 
 textures/orion/trimlight_red
 {
-	qer_editorimage textures/orion/trimlight_red.tga
-	q3map_lightimage textures/orion/trimlight_red.blend.tga
+	qer_editorimage textures/orion/trimlight_red
+	q3map_lightimage textures/orion/trimlight_red.blend
 	q3map_surfacelight 10000
 
 	{
 		map $lightmap
 	}
 	{
-		map textures/orion/trimlight_red.tga
+		map textures/orion/trimlight_red
 		blendfunc filter
 		tcGen lightmap
 	}
 	{
-		map textures/orion/trimlight_red.blend.tga
+		map textures/orion/trimlight_red.blend
 		blendfunc add
 	}
 }
 
 textures/orion/sky
 {
-      qer_editorimage textures/titan/Asteroid
+      qer_editorimage textures/titan/asteroid
       surfaceparm noimpact
       surfaceparm nolightmap
       surfaceparm sky
      // q3map_sun   .5 .37 .19 90 170 33
       q3map_surfacelight 15
       
-      skyparms env/Asteroid - -
+      skyparms env/titan/asteroid - -
 }
 
 
@@ -110,12 +110,12 @@ textures/orion/sky
 //------------------------------------------------------------------------------
 textures/orion/light_red
 {
-	qer_editorimage textures/orion/light_red.tga
+	qer_editorimage textures/orion/light_red
 	surfaceparm nomarks
 	q3map_surfacelight 10000
 	q3map_lightRGB 1 .5 .5
 	{
-		map textures/orion/light_red.tga
+		map textures/orion/light_red
 	}
 	{
 		map $lightmap 
@@ -123,19 +123,19 @@ textures/orion/light_red
 		tcGen lightmap 
 	}
 	{
-		map textures/orion/light_red.blend.tga
+		map textures/orion/light_red.blend
 		blendfunc add
 	}
 }
 
 textures/orion/light_orange
 {
-	qer_editorimage textures/orion/light_orange.tga
+	qer_editorimage textures/orion/light_orange
 	surfaceparm nomarks
 	q3map_surfacelight 10000
 	q3map_lightRGB 1 .75 .25
 	{
-		map textures/orion/light_orange.tga
+		map textures/orion/light_orange
 	}
 	{
 		map $lightmap 
@@ -143,19 +143,19 @@ textures/orion/light_orange
 		tcGen lightmap 
 	}
 	{
-		map textures/orion/light_orange.blend.tga
+		map textures/orion/light_orange.blend
 		blendfunc add
 	}
 }
 
 textures/orion/light_yellow
 {
-	qer_editorimage textures/orion/light_yellow.tga
+	qer_editorimage textures/orion/light_yellow
 	surfaceparm nomarks
 	q3map_surfacelight 10000
 	q3map_lightRGB 1 .75 .25
 	{
-		map textures/orion/light_yellow.tga
+		map textures/orion/light_yellow
 	}
 	{
 		map $lightmap 
@@ -163,19 +163,19 @@ textures/orion/light_yellow
 		tcGen lightmap 
 	}
 	{
-		map textures/orion/light_yellow.blend.tga
+		map textures/orion/light_yellow.blend
 		blendfunc add
 	}
 }
 
 textures/orion/light_green
 {
-	qer_editorimage textures/orion/light_green.tga
+	qer_editorimage textures/orion/light_green
 	surfaceparm nomarks
 	q3map_surfacelight 10000
 	q3map_lightRGB .5 .75 .5
 	{
-		map textures/orion/light_green.tga
+		map textures/orion/light_green
 	}
 	{
 		map $lightmap 
@@ -183,19 +183,19 @@ textures/orion/light_green
 		tcGen lightmap 
 	}
 	{
-		map textures/orion/light_green.blend.tga
+		map textures/orion/light_green.blend
 		blendfunc add
 	}
 }
 
 textures/orion/light_blue
 {
-	qer_editorimage textures/orion/light_blue.tga
+	qer_editorimage textures/orion/light_blue
 	surfaceparm nomarks
 	q3map_surfacelight 10000
 	q3map_lightRGB .5 .75 1
 	{
-		map textures/orion/light_blue.tga
+		map textures/orion/light_blue
 	}
 	{
 		map $lightmap 
@@ -203,7 +203,7 @@ textures/orion/light_blue
 		tcGen lightmap 
 	}
 	{
-		map textures/orion/light_blue.blend.tga
+		map textures/orion/light_blue.blend
 		blendfunc add
 	}
 }
@@ -215,13 +215,13 @@ textures/orion/light_blue
 //------------------------------------------------------------------------------
 textures/orion/msg_status
 {
-  qer_editorimage textures/orion/msg_status.tga
+  qer_editorimage textures/orion/msg_status
 
   cull twosided
   surfaceparm nolightmap
 
   {
-    map textures/orion/msg_status.tga
+    map textures/orion/msg_status
     blendfunc GL_ONE GL_ONE
     tcMod scroll 0 .05
   }
@@ -229,13 +229,13 @@ textures/orion/msg_status
 
 textures/orion/msg_warning1
 {
-  qer_editorimage textures/orion/msg_warning1.tga
+  qer_editorimage textures/orion/msg_warning1
 
   cull twosided
   surfaceparm nolightmap
 
   {
-    map textures/orion/msg_warning1.tga
+    map textures/orion/msg_warning1
     blendfunc GL_ONE GL_ONE
     tcMod scroll 0 .05
   }
@@ -243,13 +243,13 @@ textures/orion/msg_warning1
 
 textures/orion/msg_shields
 {
-  qer_editorimage textures/orion/msg_shields.tga
+  qer_editorimage textures/orion/msg_shields
 
   cull twosided
   surfaceparm nolightmap
 
   {
-    map textures/orion/msg_shields.tga
+    map textures/orion/msg_shields
     blendfunc GL_ONE GL_ONE
     tcMod scroll 0 .05
   }
@@ -257,13 +257,13 @@ textures/orion/msg_shields
 
 textures/orion/msg_warning2
 {
-  qer_editorimage textures/orion/msg_warning2.tga
+  qer_editorimage textures/orion/msg_warning2
 
   cull twosided
   surfaceparm nolightmap
 
   {
-    map textures/orion/msg_warning2.tga
+    map textures/orion/msg_warning2
     blendfunc GL_ONE GL_ONE
     tcMod scroll 0 .05
   }
@@ -271,13 +271,13 @@ textures/orion/msg_warning2
 
 textures/orion/msg_welcome
 {
-  qer_editorimage textures/orion/msg_welcome.tga
+  qer_editorimage textures/orion/msg_welcome
 
   cull twosided
   surfaceparm nolightmap
 
   {
-    map textures/orion/msg_welcome.tga
+    map textures/orion/msg_welcome
     blendfunc GL_ONE GL_ONE
     tcMod scroll 0 .05
   }
@@ -285,13 +285,13 @@ textures/orion/msg_welcome
 
 textures/orion/msg_orionii
 {
-  qer_editorimage textures/orion/msg_orionii.tga
+  qer_editorimage textures/orion/msg_orionii
 
   cull twosided
   surfaceparm nolightmap
 
   {
-    map textures/orion/msg_orionii.tga
+    map textures/orion/msg_orionii
     blendfunc GL_ONE GL_ONE
     tcMod scroll 0 .05
   }
@@ -299,13 +299,13 @@ textures/orion/msg_orionii
 
 textures/orion/msg_sysreport
 {
-  qer_editorimage textures/orion/msg_sysreport.tga
+  qer_editorimage textures/orion/msg_sysreport
 
   cull twosided
   surfaceparm nolightmap
 
   {
-    map textures/orion/msg_sysreport.tga
+    map textures/orion/msg_sysreport
     blendfunc GL_ONE GL_ONE
     tcMod scroll 0 .05
   }
@@ -318,13 +318,13 @@ textures/orion/msg_sysreport
 //------------------------------------------------------------------------------
 textures/orion/sat
 {
-  qer_editorimage textures/orion/sat.tga
+  qer_editorimage textures/orion/sat
 
   cull twosided
   surfaceparm nolightmap
 
   {
-    map textures/orion/sat.tga
+    map textures/orion/sat
     blendfunc GL_ONE GL_ONE
     tcMod scroll 0 .05
   }
@@ -337,13 +337,13 @@ textures/orion/sat
 //------------------------------------------------------------------------------
 textures/orion/minimap
 {
-  qer_editorimage textures/orion/minimap.tga
+  qer_editorimage textures/orion/minimap
 
   cull twosided
   surfaceparm nolightmap
 
   {
-    map textures/orion/minimap.tga
+    map textures/orion/minimap
     blendfunc GL_ONE GL_ONE
   }
 }
@@ -355,7 +355,7 @@ textures/orion/minimap
 // ======================================================================
 textures/orion/vine06
 {
-	qer_editorimage textures/orion/vine06.tga
+	qer_editorimage textures/orion/vine06
 	q3map_backShader textures/orion/vine06_back
 	q3map_vertexScale 2
 	qer_alphafunc greater 0.5
@@ -365,7 +365,7 @@ textures/orion/vine06
 	surfaceparm nomarks
 	qer_trans 0.99
 	{
-		map textures/orion/vine06.tga
+		map textures/orion/vine06
 		rgbGen vertex
 		depthWrite
 		alphaFunc GE128		
@@ -378,7 +378,7 @@ textures/orion/vine06_back
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	{
-		map textures/orion/vine06.tga
+		map textures/orion/vine06
 		rgbGen const ( 0.2 0.2 0.2 )
 		alphaFunc GE128		
 	}	
@@ -393,12 +393,12 @@ textures/orion/vine06_back
 //------------------------------------------------------------------------------
 textures/orion/trembru_s_nonsolid
 {
-	qer_editorimage textures/orion/trembru.tga
+	qer_editorimage textures/orion/trembru
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	q3map_surfacelight 1500
 	{
-		map textures/orion/trembru.tga
+		map textures/orion/trembru
 	}
 	{
 		map $lightmap 
@@ -406,33 +406,33 @@ textures/orion/trembru_s_nonsolid
 		tcGen lightmap 
 	}
 	{
-		map textures/orion/trembru.tga
+		map textures/orion/trembru
 		blendfunc add
 	}
 }
 
 textures/orion/scrolling
 {
-  qer_editorimage textures/orion/scrolling.tga
+  qer_editorimage textures/orion/scrolling
 
   cull twosided
   surfaceparm nolightmap
 
   {
-    map textures/orion/scrolling.tga
+    map textures/orion/scrolling
     tcMod scroll 0 1
   }
 }
 
 textures/orion/secret1
 {
-  qer_editorimage textures/orion/secret1.tga
+  qer_editorimage textures/orion/secret1
 
   cull twosided
   surfaceparm nolightmap
 
   {
-    map textures/orion/secret1.tga
+    map textures/orion/secret1
     blendfunc GL_ONE GL_ONE
   }
 }
@@ -446,7 +446,7 @@ textures/orion/secret1
 //------------------------------------------------------------------------------
 textures/orion/e6bsegrtflr256_s
 {
-	qer_editorimage textures/orion/e6bsegrtflr256.tga
+	qer_editorimage textures/orion/e6bsegrtflr256
 	surfaceparm alphashadow
 	surfaceparm trans
 	surfaceparm nomarks
@@ -454,7 +454,7 @@ textures/orion/e6bsegrtflr256_s
 	cull none
 	nopicmip
 	{
-		map textures/orion/e6bsegrtflr256.tga
+		map textures/orion/e6bsegrtflr256
 		alphafunc GE128
 		depthwrite
 	}
@@ -475,9 +475,9 @@ textures/orion/e8xgirder_s
 	surfaceparm trans
 	cull disable
 	nopicmip
-	qer_editorimage textures/orion/e8xgirder.tga
+	qer_editorimage textures/orion/e8xgirder
 	{
-		map textures/orion/e8xgirder.tga
+		map textures/orion/e8xgirder
 		depthWrite
 		alphaFunc GE128
 	}
@@ -491,11 +491,11 @@ textures/orion/e8xgirder_s
 
 textures/orion/glass_02_s
 {
-	qer_editorimage textures/orion/scratchglass.jpg
+	qer_editorimage textures/orion/scratchglass
 	surfaceparm nomarks
 	surfaceparm trans
 	{
-		map textures/orion/scratchglass.jpg
+		map textures/orion/scratchglass
 		blendfunc add
 		rgbGen const ( 0.1 0.1 0.1 )
 	}
@@ -509,7 +509,7 @@ textures/orion/glass_02_s
 
 textures/orion/proto_fence
 {
-	qer_editorimage textures/orion/objects_fence.tga
+	qer_editorimage textures/orion/objects_fence
 	surfaceparm noimpact
 	surfaceparm playerclip
 	surfaceparm trans		
@@ -518,7 +518,7 @@ textures/orion/proto_fence
 	cull none
         nopicmip
 	{
-		map textures/orion/objects_fence.tga
+		map textures/orion/objects_fence
 		tcMod scale 3 3
 		blendFunc GL_ONE GL_ZERO
 		alphaFunc GE128
@@ -535,11 +535,11 @@ textures/orion/proto_fence
 
 textures/orion/trembru_s
 {
-	qer_editorimage textures/orion/trembru.jpg
+	qer_editorimage textures/orion/trembru
 	surfaceparm nomarks
 	q3map_surfacelight 1500
 	{
-		map textures/orion/trembru.jpg
+		map textures/orion/trembru
 	}
 	{
 		map $lightmap 
@@ -547,7 +547,7 @@ textures/orion/trembru_s
 		tcGen lightmap 
 	}
 	{
-		map textures/orion/trembru.jpg
+		map textures/orion/trembru
 		blendfunc add
 	}
 }
@@ -580,7 +580,7 @@ textures/orion/full_clip
 
 textures/orion/ladder
 {
-	qer_editorimage textures/orion/ladder.tga
+	qer_editorimage textures/orion/ladder
 	qer_trans .40
 	surfaceparm ladder
 	surfaceparm nodraw

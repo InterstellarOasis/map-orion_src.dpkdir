@@ -176,19 +176,19 @@
 "classname" "target_speaker"
 "origin" "2112 -800 160"
 "spawnflags" "1"
-"noise" "sound/ambient/fan.wav"
+"noise" "sound/ambient/fan"
 }
 {
 "classname" "target_speaker"
 "origin" "-560 -1504 144"
 "spawnflags" "1"
-"noise" "sound/ambient/quickpulse.wav"
+"noise" "sound/ambient/quickpulse"
 }
 {
 "classname" "target_speaker"
 "origin" "2112 -480 160"
 "spawnflags" "1"
-"noise" "sound/ambient/fan.wav"
+"noise" "sound/ambient/fan"
 }
 {
 "classname" "team_alien_overmind"
@@ -205,13 +205,13 @@
 "classname" "target_speaker"
 "origin" "2144 1216 -128"
 "spawnflags" "1"
-"noise" "sound/ambient/drone2.wav"
+"noise" "sound/ambient/drone2"
 }
 {
 "classname" "target_speaker"
 "origin" "2144 1024 -128"
 "spawnflags" "1"
-"noise" "sound/ambient/drone2.wav"
+"noise" "sound/ambient/drone2"
 }
 {
 "classname" "target_location"
@@ -230,7 +230,7 @@
 "classname" "target_speaker"
 "origin" "-64 960 80"
 "spawnflags" "1"
-"noise" "sound/ambient/slowpulse2.wav"
+"noise" "sound/ambient/slowpulse2"
 }
 {
 "classname" "target_location"

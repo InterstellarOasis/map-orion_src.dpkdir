@@ -397,17 +397,14 @@ textures/orion/trembru_s_nonsolid
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	q3map_surfacelight 1500
+
 	{
-		map textures/orion/trembru
-	}
-	{
-		map $lightmap 
-		blendfunc filter
-		tcGen lightmap 
-	}
-	{
-		map textures/orion/trembru
-		blendfunc add
+		diffuseMap      textures/shared_ambient_src/soda-machines/trembru_d
+		heightMap       textures/shared_ambient_src/soda-machines/trembru_h
+		normalMap       textures/shared_ambient_src/soda-machines/trembru_n
+		normalFormat    X Y Z
+		specularMap     textures/shared_ambient_src/soda-machines/trembru_s
+		glowMap         textures/shared_ambient_src/soda-machines/trembru_a
 	}
 }
 
@@ -538,17 +535,14 @@ textures/orion/trembru_s
 	qer_editorimage textures/orion/trembru
 	surfaceparm nomarks
 	q3map_surfacelight 1500
+
 	{
-		map textures/orion/trembru
-	}
-	{
-		map $lightmap 
-		blendfunc filter
-		tcGen lightmap 
-	}
-	{
-		map textures/orion/trembru
-		blendfunc add
+		diffuseMap      textures/shared_ambient_src/soda-machines/trembru_d
+		heightMap       textures/shared_ambient_src/soda-machines/trembru_h
+		normalMap       textures/shared_ambient_src/soda-machines/trembru_n
+		normalFormat    X Y Z
+		specularMap     textures/shared_ambient_src/soda-machines/trembru_s
+		glowMap         textures/shared_ambient_src/soda-machines/trembru_a
 	}
 }
 

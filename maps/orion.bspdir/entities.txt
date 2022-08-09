@@ -7,6 +7,110 @@
 "angle" "45"
 }
 {
+"classname" "info_alien_intermission"
+"origin" "2080 -288 16"
+"angle" "-45"
+}
+{
+"classname" "info_human_intermission"
+"origin" "-480 -672 144"
+"angle" "90"
+}
+{
+"classname" "team_alien_overmind"
+"origin" "2448 -344 24"
+"angle" "90"
+}
+{
+"classname" "team_alien_spawn"
+"origin" "2432 -928 -144"
+"angle" "180"
+}
+{
+"classname" "team_alien_spawn"
+"origin" "2416 -816 -144"
+"angle" "180"
+}
+{
+"classname" "team_alien_leech"
+"origin" "2635 -795 -144"
+"angle" "-90"
+}
+{
+"classname" "team_alien_acid_tube"
+"origin" "2340 -320 -144"
+"angle" "180"
+}
+{
+"classname" "team_alien_acid_tube"
+"origin" "2518 -984 32"
+"angle" "-90"
+}
+{
+"classname" "team_alien_acid_tube"
+"origin" "2360 -984 32"
+"angle" "-90"
+}
+{
+"classname" "team_alien_acid_tube"
+"origin" "2360 -304 32"
+"angle" "90"
+}
+{
+"classname" "team_human_reactor"
+"origin" "-592 -128 16"
+}
+{
+"classname" "team_human_spawn"
+"origin" "-272 -160 32"
+"angle" "180"
+}
+{
+"classname" "team_human_spawn"
+"origin" "-272 -250 32"
+"angle" "180"
+}
+{
+"classname" "team_human_armoury"
+"origin" "-360 -128 12"
+"angle" "180"
+}
+{
+"classname" "team_human_medistat"
+"origin" "-480 -128 16"
+"angle" "90"
+}
+{
+"classname" "team_human_drill"
+"origin" "-225 -95 16"
+"angle" "180"
+}
+{
+"classname" "team_human_mgturret"
+"origin" "-384 -176 176"
+"angle" "90"
+}
+{
+"classname" "team_human_mgturret"
+"origin" "-256 -176 176"
+"angle" "90"
+}
+{
+"classname" "team_human_mgturret"
+"origin" "-400 -384 16"
+"angle" "180"
+}
+{
+"classname" "team_human_mgturret"
+"origin" "-576 -224 16"
+"angle" "-90"
+}
+{
+"classname" "team_human_mgturret"
+"origin" "-704 -128 16"
+"angle" "45"
+}
+{
 "classname" "target_location"
 "origin" "1344 -1088 160"
 "message" "Lobby"
@@ -22,45 +126,6 @@
 "origin" "1024 512 48"
 "message" "Main Hallway"
 "count" "0"
-}
-{
-"classname" "team_human_armoury"
-"origin" "-360 -128 12"
-"angle" "180"
-}
-{
-"classname" "team_human_medistat"
-"origin" "-480 -128 16"
-}
-{
-"classname" "team_human_mgturret"
-"origin" "-384 -176 176"
-}
-{
-"classname" "team_human_mgturret"
-"origin" "-400 -384 16"
-"angle" "0"
-}
-{
-"classname" "team_human_mgturret"
-"origin" "-256 -176 176"
-}
-{
-"classname" "info_human_intermission"
-"origin" "-480 -672 144"
-"angle" "90"
-}
-{
-"classname" "team_human_spawn"
-"origin" "-272 -136 32"
-}
-{
-"classname" "team_human_spawn"
-"origin" "-272 -208 32"
-}
-{
-"classname" "team_human_mgturret"
-"origin" "-704 -128 16"
 }
 {
 "classname" "target_location"
@@ -93,19 +158,6 @@
 "count" "1"
 }
 {
-"classname" "info_alien_intermission"
-"origin" "2080 -288 16"
-"angle" "-45"
-}
-{
-"classname" "team_alien_spawn"
-"origin" "2432 -928 -144"
-}
-{
-"classname" "team_alien_spawn"
-"origin" "2416 -816 -144"
-}
-{
 "classname" "target_location"
 "origin" "2272 -592 -96"
 "count" "1"
@@ -128,26 +180,6 @@
 "speed" "100"
 "origin" "2112 -480 248"
 "model" "*2"
-}
-{
-"classname" "team_alien_acid_tube"
-"origin" "2528 -1000 32"
-}
-{
-"classname" "team_alien_acid_tube"
-"origin" "2528 -304 -144"
-}
-{
-"classname" "team_alien_acid_tube"
-"origin" "2360 -984 32"
-}
-{
-"classname" "team_alien_acid_tube"
-"origin" "2352 -304 -144"
-}
-{
-"classname" "team_human_reactor"
-"origin" "-592 -128 16"
 }
 {
 "classname" "target_location"
@@ -189,11 +221,6 @@
 "origin" "2112 -480 160"
 "spawnflags" "1"
 "noise" "sound/ambient/fan"
-}
-{
-"classname" "team_alien_overmind"
-"origin" "2448 -344 24"
-"angle" "90"
 }
 {
 "classname" "target_location"
@@ -303,10 +330,6 @@
 "spawnflags" "12"
 "dmg" "999999"
 "model" "*5"
-}
-{
-"classname" "team_human_mgturret"
-"origin" "-576 -224 16"
 }
 {
 "classname" "target_location"

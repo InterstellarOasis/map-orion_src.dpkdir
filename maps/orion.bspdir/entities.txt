@@ -269,14 +269,14 @@
 "classname" "misc_anim_model"
 "origin" "1040 -2192 32"
 "model" "models/mapobjects/orion/builder.md3"
-"animation" "41    40    40    60"
+"animation" "41 40 40 60"
 "angle" "-90"
 "radius" "3"
 }
 {
 "classname" "misc_anim_model"
 "origin" "1040 -2416 3"
-"animation" "90	40	0	20"
+"animation" "90 40 0 20"
 "model" "models/mapobjects/orion/upper.md3"
 "angle" "-75"
 }
